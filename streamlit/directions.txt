@@ -1,0 +1,39 @@
+1. git init
+
+git init
+
+
+2. python virtual environment
+
+python -m venv venv
+venv\Scripts\activate
+
+
+3. Install dependencies:
+
+pip install streamlit textblob
+
+
+4. run the streamlit app:
+
+streamlit run app.py
+
+
+5. push code to github:
+
+5.1 Make a Github repo and copy its url
+git remote add origin <repository_url>
+
+
+git add .
+git commit -m "Initial commit"
+git push -u origin main
+
+
+6. Deploying on Streamlit Cloud:
+
+6.1 Login to Streamlit Cloud
+6.2 Link your Github repo
+6.3 Click on Create app
+6.4 Select the repo and the .py file name
+6.5 deploy
